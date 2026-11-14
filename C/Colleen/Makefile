@@ -1,6 +1,6 @@
 CC := cc
 NAME := Colleen
-SRCS_DIR := src/
+SRCS_DIR := ./
 SOURCES :=	dr-quine.c	\
 
 SOURCES	:=	$(addprefix $(SRCS_DIR), $(SOURCES))
