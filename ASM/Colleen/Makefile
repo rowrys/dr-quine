@@ -3,7 +3,7 @@ ASM := nasm
 ASMFLAGS := -f elf64
 LD := ld
 LDFLAGS :=
-SRCS_DIR := src/
+SRCS_DIR := ./
 OBJ_DIR := .build/
 SOURCES :=	$(SRCS_DIR)dr-quine.asm	\
 
